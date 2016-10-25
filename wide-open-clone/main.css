@@ -26,6 +26,7 @@ header {
 .header-list li {
     padding-bottom: 5px;
     border-bottom: 5px solid transparent;
+    margin-right: 10px;
 }
 
 .header-list li:hover {
@@ -97,4 +98,21 @@ button {
     color: #fff;
     font-size: 16px;
     font-weight: bold;
+}
+
+.works {
+    background: lightgray;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.stupid {
+    width: 75px;
+    height: 75px;
+    background: url('wideopen-icons-master/img/sprite_home.png');
+    background-position: -22px -113px;
 }
